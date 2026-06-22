@@ -1,0 +1,10 @@
+Digital forensic investigations generate vast quantities of logs, system events, authentication records, and user activity data that 
+must be analysed to determine the sequence of actions that occurred during a security incident. While existing forensic tools are 
+effective at collecting and presenting evidence, they typically rely on raw logs, tabular views, and static timelines that require 
+significant expertise to interpret and can be challenging to communicate to non-technical stakeholders involved in incident response 
+and decision-making. This project proposes an automated forensic investigation platform that reconstructs incident timelines from 
+heterogeneous forensic artefacts, correlates related events to establish causal relationships, and transforms investigation findings 
+into an interactive visual replay of incident progression. By combining automated timeline reconstruction with visual forensic 
+storytelling, the platform aims to improve the understanding, communication, and analysis of complex security incidents while reducing 
+the effort required to manually interpret forensic evidence. The project will further evaluate whether animated incident reconstruction 
+enhances investigator comprehension and analysis efficiency when compared with traditional log-based forensic analysis approaches.
