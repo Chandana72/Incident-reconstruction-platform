@@ -1,6 +1,5 @@
 # Incident-reconstruction-platform
 
-----------------------------------
 PROJECT SCOPE
 
 This project focuses on the automated reconstruction and visualisation of digital forensic investigations using artefacts extracted from a forensic dataset. The system will analyse evidence such as system logs, user activity, file system metadata, browser history, and authentication records to reconstruct a chronological timeline of events.Instead of presenting investigators with raw logs or static timelines, the platform will provide a hierarchical visual investigation. Users will first see a high-level overview of the incident and can then select individual stages to explore the underlying forensic evidence, including related events, timestamps, and supporting artefacts.
