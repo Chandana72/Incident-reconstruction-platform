@@ -28,47 +28,31 @@ Dataset Sources:
 ----------------------------------
 USER STORIES
 
-The platform is designed to transform complex forensic findings into understandable visual incident narratives for users with different levels of technical expertise.
+User stories describe system requirements from the perspective of different users by identifying who will use the system, what they want to achieve, and why the capability is valuable.
 
-Digital Forensic Investigator
+A. Digital Forensic Investigator
 
-  **As a** digital forensic investigator,
+*As a* digital forensic investigator,
+I want to generate interactive visual stories of forensic incidents,
+So that I can clearly communicate investigation findings to technical and non-technical stakeholders.
 
-  **I want to** present investigation findings through an interactive visual incident replay,
+B. Security Consultant
 
-  **So that** I can clearly communicate how the incident unfolded to both technical and non-technical stakeholders without relying solely   on raw forensic logs and static timelines.
-  
----
+*As a* security consultant,
+I want to review visual stories of previous cyber incidents within a particular organisation,
+So that I can explain recurring security weaknesses and recommend areas for future security improvement.
 
-Security Consultant
-  
-  **As a** security consultant,
-  
-  **I want to** review visual reconstructions of previous cyber incidents within a particular organisation,
-  
-  **So that** I can identify recurring attack patterns and security weaknesses, clearly explain the organisation's risk exposure, and recommend where future security improvements and investments should be prioritised.
+C. Security Awareness Manager
 
----
+*As a* security awareness manager,
+I want to generate simplified visual stories of previous cyber incidents,
+So that I can use realistic incident scenarios to improve employee cybersecurity awareness.
 
-Security Awareness Manager
+D. Cybersecurity Educator
 
-**As a** security awareness manager,
-
-**I want to** use visual incident stories based on realistic cyber incidents during employee training,
-
-**So that** employees can understand how attacks such as phishing, social engineering, insider threats, and data exfiltration occur and learn how their actions can influence the progression of a security incident.
-
----
-
-Cybersecurity Lecturer
-
-**As a** cybersecurity lecturer,
-
-**I want to** demonstrate cyber incidents and forensic investigations through interactive visual storytelling,
-
-**So that** students can better understand incident progression, attacker and user actions, forensic evidence, and investigative reasoning than they would through static timelines, reports, or raw log files alone.
+*As a* cybersecurity educator,
+I want to generate high-level graphical summaries of historic forensic incidents,
+So that I can share these with my students and discuss the case histories.
 
 ----------------------------------
 LITERATURE REVIEW
-
-----------------------------------
