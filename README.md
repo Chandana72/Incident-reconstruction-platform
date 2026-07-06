@@ -30,25 +30,25 @@ USER STORIES
 
 User stories describe system requirements from the perspective of different users by identifying who will use the system, what they want to achieve, and why the capability is valuable.
 
-A. Digital Forensic Investigator
+1. Digital Forensic Investigator
 
 *As a* digital forensic investigator,
 I want to generate interactive visual stories of forensic incidents,
 So that I can clearly communicate investigation findings to technical and non-technical stakeholders.
 
-B. Security Consultant
+2. Security Consultant
 
 *As a* security consultant,
 I want to review visual stories of previous cyber incidents within a particular organisation,
 So that I can explain recurring security weaknesses and recommend areas for future security improvement.
 
-C. Security Awareness Manager
+3. Security Awareness Manager
 
 *As a* security awareness manager,
 I want to generate simplified visual stories of previous cyber incidents,
 So that I can use realistic incident scenarios to improve employee cybersecurity awareness.
 
-D. Cybersecurity Educator
+4. Cybersecurity Educator
 
 *As a* cybersecurity educator,
 I want to generate high-level graphical summaries of historic forensic incidents,
