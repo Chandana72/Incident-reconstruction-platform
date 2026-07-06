@@ -32,35 +32,35 @@ User stories describe system requirements from the perspective of different user
 
 1. Digital Forensic Investigator
 
-  As a digital forensic investigator,
+As a digital forensic investigator,
   
-  I want to present complex forensic findings through interactive visual stories,
+I want to present complex forensic findings through interactive visual stories,
 
-  So that I can improve non-technical stakeholders’ comprehension of cyber incidents and support more informed decision-making.
+So that I can improve non-technical stakeholders’ comprehension of cyber incidents and support more informed decision-making.
 
 2. Security Consultant
 
-   As a security consultant,
+As a security consultant,
     
-   I want to review visual reconstructions of previous cyber incidents within a particular organisation,
+I want to review visual reconstructions of previous cyber incidents within a particular organisation,
     
-   So that I can identify recurring attack patterns, explain security weaknesses, and recommend where the organisation should prioritise future security investments.
+So that I can identify recurring attack patterns, explain security weaknesses, and recommend where the organisation should prioritise future security investments.
 
 3. Security Awareness Manager
 
-  As a security awareness manager,
+As a security awareness manager,
   
-  I want to use visual incident stories based on realistic cyber incidents that have occurred within a particular organisation during employee training,
+I want to use visual incident stories based on realistic cyber incidents that have occurred within a particular organisation during employee training,
   
-  So that employees can understand how attacks such as phishing, social engineering, insider threats, and data exfiltration occur, and learn how their actions can influence the progression of a security incident.
+So that employees can understand how attacks such as phishing, social engineering, insider threats, and data exfiltration occur, and learn how their actions can influence the progression of a security incident.
 
 4. Cybersecurity Educator
   
-  As a cybersecurity educator,
+As a cybersecurity educator,
   
-  I want to use interactive visual stories of historical forensic incidents,
+I want to use interactive visual stories of historical forensic incidents,
   
-  So that students can better understand incident progression, forensic evidence, and investigative reasoning through realistic case-based learning.
+So that students can better understand incident progression, forensic evidence, and investigative reasoning through realistic case-based learning.
 
 ----------------------------------
 LITERATURE REVIEW
