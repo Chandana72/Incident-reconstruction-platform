@@ -94,7 +94,7 @@ Any automated reconstruction system must therefore preserve evidential traceabil
 
 This becomes particularly important when forensic findings are presented visually. A coherent incident animation or narrative may appear authoritative even when some relationships remain uncertain. The proposed platform therefore adopts a human-in-the-loop approach in which automated processing supports evidence filtering, event correlation, and reconstruction, while investigators retain responsibility for validating, correcting, or rejecting reconstructed incident actions.
 
-## 3. Stakeholder Understanding and Different Levels of Cybersecurity Expertise
+3. Stakeholder Understanding and Different Levels of Cybersecurity Expertise
 
 Digital forensic findings are used by people with different organisational responsibilities, technical backgrounds, and information requirements. Investigators may require access to detailed artefacts, timestamps, and relationships, while managers, legal teams, incident coordinators, and other stakeholders may initially require a clear explanation of what happened, how the incident progressed, and which conclusions are supported by evidence.
 
