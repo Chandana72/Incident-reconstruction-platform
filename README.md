@@ -12,6 +12,17 @@ RESEARCH QUESTION
 Can interactive visual forensic storytelling improve non-technical stakeholders' comprehension of cyber incidents and support more informed decision-making?
 
 ----------------------------------
+EXPECTED OUTCOME
+
+An automated forensic investigation tool that reduces manual analysis effort and improves comprehension of incident findings through animated incident reconstruction and visual storytelling. The system is expected to provide different levels of incident representation so that users can obtain an accessible overview of what occurred, explore the reconstructed sequence of incident actions, and inspect the underlying technical evidence when greater detail is required. Rather than replacing forensic investigators or independently communicating forensic conclusions, the platform will operate as an investigator-controlled explanation and decision-support layer between complex forensic evidence and the stakeholders who must understand and respond to the incident.
+
+A further expected outcome is empirical evidence concerning whether interactive visual representations of reconstructed forensic incidents improve incident comprehension, identification of significant incident stages, evidential understanding, analysis efficiency, and the ability to make informed incident-related judgements when compared with conventional forensic timeline representations. The research will also investigate whether these effects differ according to users' levels of cybersecurity expertise.
+
+Designing the platform for users with varying levels of cybersecurity expertise provides an important methodological advantage for the evaluation. Cybersecurity expertise can be measured and treated as an experimental variable rather than imposed as a strict participant eligibility requirement.
+
+The overall expected contribution is therefore both technical and human-centred: a working framework for evidence-linked forensic incident reconstruction and interactive visual explanation, together with empirical findings concerning how such representations affect incident understanding, evidence interpretation, analysis efficiency, and informed judgement across users with different levels of cybersecurity expertise.
+
+----------------------------------
 DATASET
 
 This project uses the **M57 Jean** forensic scenario from the **Digital Corpora** collection. The dataset represents a realistic digital forensic investigation involving a fictional employee's workstation and contains a variety of forensic artefacts, including Windows Event Logs, browser history, email data, file system metadata, registry information, user activity, and deleted files.
@@ -63,4 +74,66 @@ User stories describe system requirements from the perspective of different user
    So that students can better understand incident progression, forensic evidence, and investigative reasoning through realistic case-based learning.
 
 ----------------------------------
-LITERATURE REVIEW
+LITERATURE REVIEW (Summary)
+
+Digital forensic investigations generate large volumes of heterogeneous evidence from sources such as file systems, emails, application artefacts, system logs, and user activity. Existing forensic tools provide effective mechanisms for extracting, searching, filtering, and organising this evidence. However, investigators must still interpret fragmented technical observations and determine how they relate to meaningful activities and incident progression. The challenge is therefore not only obtaining forensic evidence, but transforming low-level observations into a defensible and understandable account of what occurred.
+
+1. Timeline Analysis and Automated Incident Reconstruction
+
+Forensic timelines organise digital evidence chronologically and provide an important foundation for understanding activity across multiple evidence sources. However, chronological organisation alone does not explain which events are significant, how events relate to one another, or what higher-level activities they represent. Large forensic timelines may still require substantial manual interpretation before investigators can establish a coherent account of an incident.
+
+Research on automated event reconstruction attempts to address this problem by identifying relationships between low-level forensic events and transforming them into meaningful activities. Temporal relationships, shared entities, files, users, systems, communications, and other contextual information can be used to correlate events and reconstruct incident progression.
+
+Graph-based representations further support this process by modelling forensic evidence as connected entities, events, artefacts, and activities rather than isolated timeline entries. These approaches provide important foundations for reducing manual analysis effort. However, identifying relationships and reconstructing higher-level activities does not automatically produce an explanation that is understandable to wider incident-response stakeholders.
+
+2. Evidential Traceability, Uncertainty, and Investigator Control
+
+Automated incident reconstruction introduces the risk of presenting inferred relationships as established facts. Digital evidence may be incomplete, fragmented, duplicated, or compatible with multiple explanations. Consequently, reconstructed incident sequences should distinguish between directly observed evidence, correlated events, inferred activities, and uncertain conclusions.
+
+Any automated reconstruction system must therefore preserve evidential traceability. Users should be able to inspect the artefacts supporting each reconstructed action and understand how the system reached its conclusions.
+
+This becomes particularly important when forensic findings are presented visually. A coherent incident animation or narrative may appear authoritative even when some relationships remain uncertain. The proposed platform therefore adopts a human-in-the-loop approach in which automated processing supports evidence filtering, event correlation, and reconstruction, while investigators retain responsibility for validating, correcting, or rejecting reconstructed incident actions.
+
+## 3. Stakeholder Understanding and Different Levels of Cybersecurity Expertise
+
+Digital forensic findings are used by people with different organisational responsibilities, technical backgrounds, and information requirements. Investigators may require access to detailed artefacts, timestamps, and relationships, while managers, legal teams, incident coordinators, and other stakeholders may initially require a clear explanation of what happened, how the incident progressed, and which conclusions are supported by evidence.
+
+Existing research on cybersecurity decision-making and forensic reporting demonstrates that cybersecurity information is interpreted and used differently across stakeholder groups. Research on cyber situational awareness visualisations also indicates that existing visualisation systems predominantly target operational-level cybersecurity personnel, with comparatively less attention given to managers, higher-level decision-makers, and users with limited cybersecurity expertise.
+
+Supporting wider stakeholder understanding should not require removing technical detail or producing separate systems for every audience. Progressive disclosure provides an alternative approach. Users can initially view a high-level incident overview, explore reconstructed incident actions when greater detail is required, and inspect the supporting forensic evidence and uncertainty associated with individual conclusions.
+
+This allows the same incident reconstruction to support users with different levels of cybersecurity expertise while preserving access to technical depth.
+
+4. Visual Analytics and Interactive Incident Explanation
+
+Visual analytics can help users understand complex temporal and relational information by externalising patterns, sequences, and relationships that would otherwise need to be mentally reconstructed from technical data.
+
+Existing forensic visualisation systems support timeline exploration, filtering, evidence inspection, and relationship analysis. However, most systems primarily support investigators who must manually explore the evidence and construct their own understanding of incident progression.
+
+Interactive visual explanation addresses a different problem: communicating reconstructed incident progression through a structured sequence while allowing users to explore individual actions and supporting evidence.
+
+The proposed platform uses reconstructed incident actions to generate an animated visual replay of an incident. Users can move between a high-level incident overview, meaningful incident stages, reconstructed actions, uncertainty information, and supporting technical evidence.
+
+Visual storytelling is therefore not treated as a decorative interface feature. It acts as an explanation layer between complex forensic evidence and the people who must understand the findings. Because visual narratives can oversimplify evidence or create false impressions of certainty, evidential traceability, visible uncertainty, and investigator validation remain essential components of the system.
+
+5. Evaluation of Reconstruction and Human-Centred Visualisation
+
+The proposed platform makes both a technical and a human-centred contribution and therefore requires two forms of evaluation.
+
+The technical evaluation examines whether the system can reconstruct meaningful incident progression from forensic evidence. The reconstructed sequence can be compared with a documented or manually established incident sequence using measures such as significant-event identification, temporal ordering, relationship reconstruction, false relationships, missing events, and evidential traceability.
+
+The human-centred evaluation investigates whether interactive visual reconstruction improves incident understanding compared with conventional forensic timeline representations. Measures may include incident comprehension, identification of important incident stages, evidence interpretation, task completion time, usability, and perceived cognitive workload.
+
+Because the platform is intended to support users with varying levels of cybersecurity expertise, the evaluation does not depend exclusively on recruiting experienced digital forensic practitioners. Participants can include users with different levels of cybersecurity knowledge, and expertise can be measured as a participant characteristic.
+
+This enables the study to investigate whether interactive visual reconstruction primarily benefits less-experienced users, supports more-experienced users, or affects different expertise groups in different ways. Participant diversity therefore contributes directly to the research design rather than representing only a practical recruitment convenience.
+
+------------------------------
+RESEARCH GAP
+
+Existing research has made substantial progress in digital forensic timeline analysis, automated event reconstruction, graph-based relationship modelling, uncertainty representation, forensic reporting, and cybersecurity visualisation. These contributions provide important methods for extracting and organising forensic evidence, identifying relationships between low-level events, reconstructing higher-level activities, and supporting the exploration of complex security information.
+
+However, a disconnect remains between the reconstruction of forensic incidents and the communication of reconstructed findings. Timeline and visual analytics systems primarily support investigators in exploring technical evidence, while automated reconstruction and graph-based approaches focus on identifying activities and relationships within forensic data. Although these approaches can reduce aspects of manual analysis, their outputs are not necessarily designed to provide understandable, evidence-linked explanations of incident progression for users with different levels of cybersecurity expertise. 
+
+This research addresses this gap through the design, implementation, and evaluation of a human-in-the-loop forensic investigation platform that transforms heterogeneous forensic evidence into a structured reconstruction of incident progression and communicates that reconstruction through interactive visual storytelling. The platform combines event correlation, incident reconstruction, evidential traceability, investigator validation, and progressive disclosure, enabling users to move between high-level incident explanations, reconstructed actions, and the technical evidence supporting individual conclusions.
+------------------------------------
