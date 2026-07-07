@@ -110,9 +110,7 @@ Visual analytics can help users understand complex temporal and relational infor
 
 Existing forensic visualisation systems support timeline exploration, filtering, evidence inspection, and relationship analysis. However, most systems primarily support investigators who must manually explore the evidence and construct their own understanding of incident progression.
 
-Interactive visual explanation addresses a different problem: communicating reconstructed incident progression through a structured sequence while allowing users to explore individual actions and supporting evidence.
-
-The proposed platform uses reconstructed incident actions to generate an animated visual replay of an incident. Users can move between a high-level incident overview, meaningful incident stages, reconstructed actions, uncertainty information, and supporting technical evidence.
+Interactive visual explanation addresses a different problem: communicating reconstructed incident progression through a structured sequence while allowing users to explore individual actions and supporting evidence.The proposed platform uses reconstructed incident actions to generate an animated visual replay of an incident. Users can move between a high-level incident overview, meaningful incident stages, reconstructed actions, uncertainty information, and supporting technical evidence.
 
 Visual storytelling is therefore not treated as a decorative interface feature. It acts as an explanation layer between complex forensic evidence and the people who must understand the findings. Because visual narratives can oversimplify evidence or create false impressions of certainty, evidential traceability, visible uncertainty, and investigator validation remain essential components of the system.
 
