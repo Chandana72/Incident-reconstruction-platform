@@ -22,7 +22,12 @@ Designing the platform for users with varying levels of cybersecurity expertise 
 
 The overall expected contribution is therefore both technical and human-centred: a working framework for evidence-linked forensic incident reconstruction and interactive visual explanation, together with empirical findings concerning how such representations affect incident understanding, evidence interpretation, analysis efficiency, and informed judgement across users with different levels of cybersecurity expertise.
 
-----------------------------------
+-----------------------------
+SYSTEM PIPELINE
+
+Forensic Dataset → Evidence Extraction → Event Normalisation → Event Correlation → Timeline Reconstruction → Visual Incident Replay → Dashboard 
+
+------------------------------
 DATASET
 
 This project uses the **M57 Jean** forensic scenario from the **Digital Corpora** collection. The dataset represents a realistic digital forensic investigation involving a fictional employee's workstation and contains a variety of forensic artefacts, including Windows Event Logs, browser history, email data, file system metadata, registry information, user activity, and deleted files.
