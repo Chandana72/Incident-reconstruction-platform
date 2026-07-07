@@ -116,17 +116,13 @@ The proposed platform uses reconstructed incident actions to generate an animate
 
 Visual storytelling is therefore not treated as a decorative interface feature. It acts as an explanation layer between complex forensic evidence and the people who must understand the findings. Because visual narratives can oversimplify evidence or create false impressions of certainty, evidential traceability, visible uncertainty, and investigator validation remain essential components of the system.
 
-5. Evaluation of Reconstruction and Human-Centred Visualisation
+5. Current Communication of Forensic Incident Findings
 
-The proposed platform makes both a technical and a human-centred contribution and therefore requires two forms of evaluation.
+Forensic incident findings are commonly communicated through technical reports, executive summaries, presentations, timelines, and incident briefings. Research on digital forensic reporting distinguishes between different reporting formats depending on their purpose and intended audience, while also highlighting the difficulty of communicating complex technical findings clearly without weakening their evidential meaning.
 
-The technical evaluation examines whether the system can reconstruct meaningful incident progression from forensic evidence. The reconstructed sequence can be compared with a documented or manually established incident sequence using measures such as significant-event identification, temporal ordering, relationship reconstruction, false relationships, missing events, and evidential traceability.
+Studies of cybersecurity decision-making further show that stakeholders approach incidents from different organisational perspectives and have different information requirements. Consequently, a single technical representation of forensic findings may not adequately support investigators, executives, legal teams, and other participants involved in understanding and responding to an incident.
 
-The human-centred evaluation investigates whether interactive visual reconstruction improves incident understanding compared with conventional forensic timeline representations. Measures may include incident comprehension, identification of important incident stages, evidence interpretation, task completion time, usability, and perceived cognitive workload.
-
-Because the platform is intended to support users with varying levels of cybersecurity expertise, the evaluation does not depend exclusively on recruiting experienced digital forensic practitioners. Participants can include users with different levels of cybersecurity knowledge, and expertise can be measured as a participant characteristic.
-
-This enables the study to investigate whether interactive visual reconstruction primarily benefits less-experienced users, supports more-experienced users, or affects different expertise groups in different ways. Participant diversity therefore contributes directly to the research design rather than representing only a practical recruitment convenience.
+Overall, existing approaches support different reporting and communication needs, but communicating forensic incidents to users with varying levels of cybersecurity expertise still depends heavily on manual explanation by technical specialists. The challenge remains to make incident findings understandable to wider stakeholders while preserving access to supporting evidence and sufficient technical depth for forensic scrutiny.
 
 ------------------------------
 RESEARCH GAP
