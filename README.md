@@ -138,14 +138,13 @@ This research addresses the identified gap through the design, implementation, a
 
 ------------------------------------
 ARCHITECTURE OUTLINE
+
+```text
 ┌───────────────────────────────────────────────────────┐
-│                                                       |
-|                        HEADER                         |
-│                                                       |
+│                       HEADER                          │
 ├──────────────┬────────────────────────────────────────┤
 │              │                                        │
-│              |                                        |
-|   TIMELINE   │             STAGE FLOW                 │
+│   TIMELINE   │             STAGE FLOW                 │
 │              │                                        │
 │              ├────────────────────────────────────────┤
 │              │                                        │
@@ -156,3 +155,4 @@ ARCHITECTURE OUTLINE
 │              │   EVENT DETAILS   │      EVIDENCE      │
 │              │                   │                    │
 └──────────────┴───────────────────┴────────────────────┘
+```
