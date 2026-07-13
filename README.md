@@ -137,3 +137,19 @@ However, a disconnect remains between the reconstruction of forensic incidents a
 This research addresses the identified gap through the design, implementation, and evaluation of a human-in-the-loop forensic investigation platform that transforms heterogeneous forensic evidence into a structured, evidence-linked reconstruction of incident progression and communicates the resulting findings through interactive visual storytelling. By integrating event correlation and incident reconstruction with evidential traceability, investigator validation, and progressive disclosure, the platform aims to reduce the manual effort required to interpret fragmented forensic evidence while enabling users to move between accessible incident overviews, reconstructed actions, and the technical evidence supporting individual conclusions. The overall expected contribution is therefore both technical and human-centred: advancing an integrated approach to forensic incident reconstruction while providing and empirically evaluating an interactive visual explanation framework designed to improve the comprehension and interpretation of incident findings across users with different levels of cybersecurity expertise.
 
 ------------------------------------
+ARCHITECTURE OUTLINE
+┌───────────────────────────────────────────────────────┐
+│                       HEADER                          │
+├──────────────┬────────────────────────────────────────┤
+│              │                                        │
+│   TIMELINE   │             STAGE FLOW                 │
+│              │                                        │
+│              ├────────────────────────────────────────┤
+│              │                                        │
+│              │             NETWORK FLOW               │
+│              │                                        │
+│              ├───────────────────┬────────────────────┤
+│              │                   │                    │
+│              │   EVENT DETAILS   │      EVIDENCE      │
+│              │                   │                    │
+└──────────────┴───────────────────┴────────────────────┘
